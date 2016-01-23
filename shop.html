@@ -75,36 +75,70 @@
 						</div>
 					</form>
 				</div>
-				<div class="brand-name">
-				<h2 class="filter-header">Группы товаров</h2>
+				<div class="groups-goods">
+				<h2 class="goods-header">Группы товаров</h2>
 				<!-- radio-->
-				<div >
-					
-				</div>
 				
-					<a class="show" href="#">Показать</a>
+					<form action="#" method="post">
+						<div >
+								<input type="radio" name="products" value="cosmetics-products" id="cosmetics" checked>
+								<label for="cosmetics">Косметические средства</label>
+
+								<input type="radio" name="products" value="hygiene-products" id="hygiene">
+								<label for="hygiene">Гигиенические средства</label>
+
+								<input type="radio" name="products" value="medicative-products" id="medicative">
+								<label for="medicative">Лечебные средства</label>
+						</div>			
+					</form>
+						<a class="show" href="#">Показать</a>
 				</div>
 			</section>
 
 			<div class="goods-content">
-			<article>
-				<div class="index-goods">
-					<img src="http://placehold.it/100x150">
-					<p class="goods-name">Набор для путешествий</p>
-					<p class="brand-name">"Baxter of California"</p>
-					<div class="user-purchase">	
-						<img src="http://placehold.it/50x30">
-						<a class="bay" href="#">Купить</a>
-					</div>				
+				<article>
+					<div class="index-goods">
+						<img src="http://placehold.it/100x150">
+						<p class="goods-name">Набор для путешествий</p>
+						<p class="brand-name">"Baxter of California"</p>
+							<div class="user-purchase">	
+								<img src="http://placehold.it/50x30">
+								<a class="bay" href="#">Купить</a>
+							</div>				
 					</div>
-			</article>
+				</article>
 			
 
 
 				
 			</div>
+			<ul class="panagination">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
 			
 		</main>
-
+		<footer class="main-footer">
+			<div class="container">
+        <section class="footer-contacts">
+         	Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+       	<section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+		</footer>
   </body>
 </html>
