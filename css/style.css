@@ -1,0 +1,25 @@
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+
+}  
+
+.header-name {
+	font-size: 30px;
+	line-height: auto;
+	color: #000000;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+
+}   
+
+.goods-name {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
+}
