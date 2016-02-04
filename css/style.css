@@ -1,15 +1,15 @@
 body {
 	font-size: 14px;
-	line-height: 1.7;
+	line-height: 24px;
 	color: #000000;
 	font-weight: 700;
 	font-family: "PT Sans Narrow", "Arial Narrow", Arial, Helvetica, sans-serif;
 }
 .header-name {
 	font-size: 30px;
-	line-height: auto;
+	line-height: 42px;
 }   
 
 .goods-name {
-	line-height: 1.3;
+	line-height: 18px;
 }
